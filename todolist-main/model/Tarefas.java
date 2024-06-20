@@ -16,7 +16,7 @@ public class Tarefas {
   public Tarefas(int id, String titulo, String descricaoTarefa, Boolean statusTarefa, Date dataInicioTarefa,
       Date prazoTarefa,
       int prioridadeTarefa) {
-    this.id = id++;
+    this.id = id;
     this.titulo = titulo;
     this.descricaoTarefa = descricaoTarefa;
     this.statusTarefa = statusTarefa;

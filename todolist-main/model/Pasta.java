@@ -2,21 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pasta {
-    private int id = 0;
     private String nome;
     private List<Tarefas> tarefas;
-
-    public Pasta(int id) {
-        this.id = id++;
-    }
-
-    public int getIdPasta() {
-        return id;
-    }
-
-    public int setIdPasta() {
-        return id;
-    }
 
     public Pasta(String nome) {
         this.nome = nome;

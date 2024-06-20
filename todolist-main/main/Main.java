@@ -95,12 +95,14 @@ public class Main {
   }
 
   public static Tarefas preencheTarefa(Scanner scanner) {
-    int id = 0;
+    System.out.println("Digite um int para o id: ");
+    int id = scanner.nextInt();
+    scanner.nextLine();
     System.out.println("Digite o título da tarefa: ");
     String tituloTarefa = scanner.nextLine();
     System.out.println("Digite a descrição da tarefa: ");
     String descricaoTarefa = scanner.nextLine();
-    System.out.println("Digite o status da tarefa (Concluida = S /Pendente = N): ");
+    System.out.println("Digite o status da tarefa (Concluida = true /Pendente = false): ");
     boolean statusTarefa = scanner.nextBoolean();
     SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     Date dataInicioTarefa = null;
