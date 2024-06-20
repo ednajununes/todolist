@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="todolist-main/interface"/>
+	<classpathentry kind="src" path="todolist-main/main"/>
+	<classpathentry kind="src" path="todolist-main/model"/>
+	<classpathentry kind="src" path="todolist-main/repository"/>
+	<classpathentry kind="src" path="todolist-main/service"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
